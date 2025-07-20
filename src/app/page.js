@@ -158,6 +158,7 @@ export default function Home() {
                 alt="Professional Developer Working"
                 width={800}
                 height={600}
+                style={{borderRadius:'20px'}}
                 className="w-full h-full object-cover"
                 priority
               />
@@ -401,7 +402,7 @@ export default function Home() {
             className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6"
             variants={staggerContainer}
           >
-            {['JavaScript', 'React', 'MongoDB', 'C', 'C++', 'VS Code', 'Git', 'GitHub', 'Spring Boot'].map((skill, index) => (
+            {['HTML','CSS','Tailwind CSS','JavaScript', 'React','DSA','Algorithms','MongoDB', 'SQL','Java', 'C++', 'Git', 'GitHub','Thymeleaf', 'Spring Boot'].map((skill, index) => (
               <motion.div 
                 key={index}
                 className="bg-white p-6 rounded-xl shadow-md text-center"
@@ -471,10 +472,8 @@ export default function Home() {
           
               <div className="flex space-x-4">
   {[
-    { name: 'Twitter', link: 'https://x.com/GunabhS' },
-    { name: 'GitHub', link: 'https://github.com/gunabh25' },
-    { name: 'LinkedIn', link: 'https://www.linkedin.com/in/gunabh-sharan-a65380257/' },
-    { name: 'Instagram', link: 'https://www.instagram.com/i.sharan._/' },
+    { name: 'GitHub', link: 'https://github.com/imvaibhav100' },
+    { name: 'LinkedIn', link: 'https://www.linkedin.com/in/vaibhav-shukla-40a082248/' },
   ].map((social, index) => (
     <a
       key={index}
@@ -506,7 +505,7 @@ export default function Home() {
               <ul className="space-y-2 text-gray-400">
                 <li>imvaibhavshukla100@gmail.com</li>
                 <li>+91 9506620945</li>
-                <li>New Delhi, India</li>
+                <li>Prayagraj, India</li>
               </ul>
             </div>
           </div>
